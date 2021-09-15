@@ -1,0 +1,2 @@
+sudo pip install wifi
+sudo pip install python-barcode
