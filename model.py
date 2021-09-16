@@ -20,7 +20,7 @@ import barcode
 
 import json
 CONFIG = None
-with open('/home/pi/caixa-magica/core/config.json') as json_data:
+with open('/home/pi/caixa-magica-teste-HW/config.json') as json_data:
     CONFIG = json.load(json_data)
 
 class serial_GPS(serial.Serial):
@@ -502,7 +502,7 @@ Subject: Relatorio de Testes da CM Serial - """ + getSerial() + """
 
 # Faz a leitura do LOG e retorna uma variável string
 def ler_log():
-    file = open('/home/pi/caixa-magica/teste_HW/funcionamento_hardwares.log', 'r')
+    file = open('/home/pi/caixa-magica-teste-HW/funcionamento_hardwares.log', 'r')
     lines = file.read().splitlines()
     file.close()
     email_str = ''
@@ -529,7 +529,7 @@ def getSerial():
 # Gerar o codigo de barras
 def generateBarcode(serial):
     try:
-        generate('CODE128', serial, writer=ImageWriter(), output='/home/pi/caixa-magica/teste_HW/barcode')
+        generate('CODE128', serial, writer=ImageWriter(), output='/home/pi/caixa-magica-teste-HW/barcode')
     except:
         pass
 

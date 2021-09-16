@@ -1,0 +1,26 @@
+{
+    "debug": true,
+    "database": {
+        "host": "localhost",
+        "user": "postgres",
+        "password": "b2ml",
+        "database": "magica"
+    },
+    "core": {
+        "host": "127.0.0.1",
+        "port": 30010,
+        "bufsize": 1024
+    },
+    "recog": {
+        "path": "/home/pi/caixa-magica/img/"
+    },
+    "pins": {
+        "gps":"/dev/ttyS0",
+        "mifare":"/dev/ttyUSB0",
+        "catraca": 12,
+        "retorno_catraca": 26,
+        "botao_G": 20,
+        "botao_P": 21,
+        "buzzer": 16
+    }
+}

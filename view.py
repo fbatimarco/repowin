@@ -16,7 +16,7 @@ sys.setrecursionlimit(10**6)
 logging.basicConfig(format='%(asctime)s - %(levelname)s: %(message)s', filename='/home/pi/caixa-magica-teste-HW/funcionamento_hardwares.log', filemode='a', level=logging.INFO)
 import json
 #CONFIG = None
-#with open('/home/pi/caixa-magica/core/config.json') as json_data:
+#with open('/home/pi/caixa-magica-teste-HW/config.json') as json_data:
 #    CONFIG = json.load(json_data)
 
 fonteTitulo = ('Arial', '20', 'bold')
