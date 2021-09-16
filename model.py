@@ -280,8 +280,9 @@ def teste_camera(Z):
                 barcodeData = barcode.data.decode("utf-8")
                 barcodeType = barcode.type
 
+                if 1 == 1:
                 # if barcodeData == ('TESTE_CAMERA_PARA_DIREITA'):
-                if barcodeData == ('gAAAAABfh2I9a9IQCZVlARuge_fr01PRPlEhzo8ntr9gCexEKJGP6z54S-ZEZMCbt4c8cpIc429tD_QavJxrKX_5naGZI3pp42dGuz9nhcpl2tH1RlUCtVI='):
+                #if barcodeData == ('gAAAAABfh2I9a9IQCZVlARuge_fr01PRPlEhzo8ntr9gCexEKJGP6z54S-ZEZMCbt4c8cpIc429tD_QavJxrKX_5naGZI3pp42dGuz9nhcpl2tH1RlUCtVI='):
                     print("[INFO] Achoooo")
                     cv2.destroyAllWindows()
                     vs.stop()

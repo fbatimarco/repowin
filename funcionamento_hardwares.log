@@ -173,3 +173,21 @@
 2021-09-14 15:52:53,522 - INFO: Módulo RFID: False
 2021-09-14 15:53:00,146 - INFO: Módulo RFID: False
 2021-09-14 15:53:02,827 - INFO: Módulo RFID: 65d55f54
+2021-09-15 16:52:08,429 - INFO: Touch Screen funcionou
+2021-09-15 16:52:54,261 - INFO: Conexao serial do GPS: False
+2021-09-15 16:53:04,275 - INFO: Localizacao do GPS: None
+2021-09-15 17:37:07,177 - INFO: Conexao da Camera: False
+2021-09-15 17:37:07,225 - INFO: Conexao da Camera: False
+2021-09-15 17:37:07,253 - INFO: Conexao da Camera: False
+2021-09-15 17:37:07,289 - INFO: Conexao da Camera: False
+2021-09-15 17:37:07,321 - INFO: Conexao da Camera: False
+2021-09-15 17:37:07,352 - INFO: Conexao da Camera: False
+2021-09-15 17:37:51,726 - INFO: Buzzer funcionou
+2021-09-15 17:51:49,920 - INFO: Conexao serial do GPS: False
+2021-09-15 17:51:59,927 - INFO: Localizacao do GPS: None
+2021-09-15 17:52:59,226 - INFO: Conexao da Camera: False
+2021-09-15 17:52:59,296 - INFO: Conexao da Camera: False
+2021-09-15 17:53:57,072 - INFO: Buzzer funcionou
+2021-09-15 18:08:55,455 - INFO: Conexao da Camera: True
+2021-09-15 18:09:21,453 - INFO: Conexao da Camera: True
+2021-09-15 18:11:57,492 - INFO: Conexao da Camera: True

@@ -120,8 +120,20 @@ class StartPage(tk.Frame):
                             command=lambda: controller.show_frame(PageTwo))
         self.button2['font'] = fonteTexto
         self.button2['width'] = 14
-        self.button2['height'] = 2
+        self.button2['height'] = 1
         self.button2.pack(pady=12)
+
+        self.button3 = tk.Button(self.primeiroContainer, text="Camera", command=lambda: controller.show_frame(PageThree))
+        self.button3['font'] = fonteTexto
+        self.button3['width'] = 14
+        self.button3['height'] = 1
+        self.button3.pack(pady=12)
+        
+        self.button4 = tk.Button(self.primeiroContainer, text="Buzzer", command=lambda: controller.show_frame(PageFour))
+        self.button4['font'] = fonteTexto
+        self.button4['width'] = 14
+        self.button4['height'] = 1
+        self.button4.pack(pady=12)
 
         #keylogger = Tk()
         self.bind('b',self.def_teste)
@@ -130,42 +142,42 @@ class StartPage(tk.Frame):
                             command=lambda: controller.show_frame(PageFive)) 
         self.button5['font'] = fonteTexto
         self.button5['width'] = 14  
-        self.button5['height'] = 2
+        self.button5['height'] = 1
         self.button5.pack(pady=12)
 
         self.button6 = tk.Button(self.primeiroContainer, text="Internet",
                             command=lambda: controller.show_frame(PageSix)) 
         self.button6['font'] = fonteTexto
         self.button6['width'] = 14  
-        self.button6['height'] = 2  
+        self.button6['height'] = 1  
         self.button6.pack(pady=12)
 
         self.button7 = tk.Button(self.primeiroContainer, text="Catraca",
                             command=lambda: controller.show_frame(PageSeven)) 
         self.button7['font'] = fonteTexto
         self.button7['width'] = 14 
-        self.button7['height'] = 2
+        self.button7['height'] = 1
         self.button7.pack(pady=12)
 
         self.button8 = tk.Button(self.primeiroContainer, text="RFID",
                             command=lambda: controller.show_frame(PageEight)) 
         self.button8['font'] = fonteTexto
         self.button8['width'] = 14 
-        self.button8['height'] = 2
+        self.button8['height'] = 1
         self.button8.pack(pady=12)
 
         self.button9 = tk.Button(self.primeiroContainer, text="Sonar",
                             command=lambda: controller.show_frame(PageNine))
         self.button9['font'] = fonteTexto
         self.button9['width'] = 14 
-        self.button9['height'] = 2 
+        self.button9['height'] = 1 
         self.button9.pack(pady=12)
 
         self.button10 = tk.Button(self.primeiroContainer, text="Sair",
                             command=self.destruir)
         self.button10['font'] = fonteTexto
         self.button10['width'] = 14 
-        self.button10['height'] = 2 
+        self.button10['height'] = 1 
         self.button10.pack(pady=(40, 20))
 
     def destruir(self):
@@ -372,8 +384,8 @@ class PageTwo(tk.Frame): # GPS
         self.botao_3 = tk.Button(self.nonoContainer)
         self.botao_3["text"] = "Próximo"
         self.botao_3["font"] = fonteTexto
-        # self.botao_3['command'] = lambda: controller.show_frame(PageThree)
-        self.botao_3['command'] = lambda: controller.show_frame(PageFive)
+        self.botao_3['command'] = lambda: controller.show_frame(PageThree)
+        #self.botao_3['command'] = lambda: controller.show_frame(PageFive)
         self.botao_3['width'] = self.width
         self.botao_3['state'] = tk.NORMAL
         self.botao_3.pack(padx=10, side=tk.RIGHT)
@@ -506,7 +518,7 @@ class PageThree(tk.Frame): # Câmera
         self.botao_3["font"] = fonteTexto
         self.botao_3['command'] = lambda: controller.show_frame(PageFour)
         self.botao_3['width'] = self.width
-        self.botao_3['state'] = tk.DISABLED
+        #self.botao_3['state'] = tk.DISABLED
         self.botao_3.pack(padx=10, side=tk.RIGHT)
 
         self.botao_4 = tk.Button(self.nonoContainer)
